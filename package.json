@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-spa-store-server-init",
+  "name": "nuxt-spa-store-init",
   "version": "1.0.0",
   "description": "A simple Nuxt module that will hydrate the VueX store when running in SPA mode (not SSR)",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BKWLD/nuxt-spa-store-server-init.git"
+    "url": "git+https://github.com/BKWLD/nuxt-spa-store-init.git"
   },
   "keywords": [
     "nuxt",
@@ -18,7 +18,7 @@
   "author": "Bukwild",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BKWLD/nuxt-spa-store-server-init/issues"
+    "url": "https://github.com/BKWLD/nuxt-spa-store-init/issues"
   },
-  "homepage": "https://github.com/BKWLD/nuxt-spa-store-server-init#readme"
+  "homepage": "https://github.com/BKWLD/nuxt-spa-store-init#readme"
 }
