@@ -1,6 +1,6 @@
 # nuxt-spa-store-init
 
-A simple Nuxt module that will hydrate the VueX store when running in SPA mode (not SSR).  It is based on [this comment](https://github.com/nuxt/nuxt.js/issues/240#issuecomment-326893386) and calls the root Vuex action `nuxtClientInit()` manually when [Nuxt's `mode`](https://nuxtjs.org/api/configuration-mode) is `spa`.
+A simple Nuxt module that will hydrate the VueX store when running in SPA mode (not SSR).  It is based on [this comment](https://github.com/nuxt/nuxt.js/issues/240#issuecomment-326893386) and calls the root Vuex action `nuxtServerInit()` manually when [Nuxt's `mode`](https://nuxtjs.org/api/configuration-mode) is `spa`.
 
 ## Install
 
