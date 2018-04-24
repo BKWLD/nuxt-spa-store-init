@@ -10,3 +10,6 @@ module.exports = function () {
 		});
 	}
 }
+
+// Export meta for Nuxt
+module.exports.meta = require('./package.json')
