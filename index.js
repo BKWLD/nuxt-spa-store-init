@@ -1,14 +1,11 @@
 /**
- * Register the no-ssr plugin that hydrates vuex
+ * Register a plugin that dispatches nuxtServerInit if it hasn't run.
  */
 const path = require('path')
 module.exports = function () {
-	if (this.options.mode == 'spa') {
-		this.addPlugin({
-			src: path.resolve(__dirname, 'plugin.js'),
-			ssr: false,
-		});
-	}
+	this.addPlugin({
+		src: path.resolve(__dirname, 'plugin.js'),
+	})
 }
 
 // Export meta for Nuxt
