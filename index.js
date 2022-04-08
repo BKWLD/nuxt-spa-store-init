@@ -3,7 +3,10 @@
  */
 const path = require('path')
 module.exports = function () {
-	this.addPlugin({
+
+	// Add the plugin last, after CMS adapters that may be called from store
+	// actions, have been registered. `this.addPlugin` unshifts the plugin.
+	this.options.plugins.push({
 		src: path.resolve(__dirname, 'plugin.js'),
 	})
 }
