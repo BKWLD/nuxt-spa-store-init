@@ -1,6 +1,6 @@
 {
   "name": "nuxt-spa-store-init",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "A simple Nuxt module that will hydrate the VueX store when running in SPA mode (not SSR)",
   "main": "index.js",
   "scripts": {
