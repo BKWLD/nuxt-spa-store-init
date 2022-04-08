@@ -4,6 +4,10 @@
 module.exports = function(ctx) {
 	const { store } = ctx
 
+	// If no store (like if this was added to a project that hasn't added files
+	// to the store directory yet), abort
+	if (!store) return
+
 	// Create a module to track whether nuxtServerInit has been run
 	store.registerModule('nuxtSpaStoreInit', {
 		namespaced: true,
